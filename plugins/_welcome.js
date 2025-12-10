@@ -52,7 +52,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
   const fkontak = {
     key: { participants: "0@s.whatsapp.net", remoteJid: m.chat, fromMe: false, id: "Halo" },
-    message: { locationMessage: { name: "☆ 𝚂𝙰𝙽𝚃𝙰𝙵𝙻𝙾𝚆 𝙱𝙾𝚃 ☆ ⭐", jpegThumbnail: thumbBuffer } },
+    message: { locationMessage: { name: "☆ Zorvex xiters☆ ⭐", jpegThumbnail: thumbBuffer } },
     participant: "0@s.whatsapp.net"
   }
 
