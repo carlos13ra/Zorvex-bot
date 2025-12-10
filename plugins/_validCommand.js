@@ -6,7 +6,7 @@ export async function before(m, { conn }) {
   const usedPrefix = global.prefix.exec(m.text)[0];
   const command = m.text.slice(usedPrefix.length).trim().split(' ')[0].toLowerCase();
   
-  const thumbRes = await fetch("https://i.postimg.cc/mZqG44Dy/1760212243057.jpg");
+  const thumbRes = await fetch("https://files.cloudkuimages.guru/images/631477d8c645.jpg");
   const thumbBuffer = await thumbRes.buffer();
   const fkontak = {
         key: {
@@ -17,7 +17,7 @@ export async function before(m, { conn }) {
         },
         message: {
             locationMessage: {
-                name: `*̥₊💫𝑺𝑨𝑵𝑻𝑨𝑭𝑳𝑶𝑾 | © 𝘣𝘺 Carlos--𝘯𝘦𝘹 ◌🚨`,
+                name: `*̥₊💫 Zorvex | © 𝘣𝘺 O.r◌🚨`,
                 jpegThumbnail: thumbBuffer
             }
         },
@@ -59,9 +59,9 @@ export async function before(m, { conn }) {
           newsletterName: channelRD.name
         },
         externalAdReply: {
-          title: '◌*̥₊ 𝗦𝗮𝗻𝘁𝗮𝗳𝗹𝗼𝘄 𝗕𝗼𝘁  ◌💥༉',
+          title: '◌*̥₊ Zorvex xiters bot◌💥༉',
           body: '',
-          thumbnailUrl: 'https://i.postimg.cc/0NxWTkp0/1754525596737.jpg',
+          thumbnailUrl: 'https://files.cloudkuimages.guru/images/631477d8c645.jpg',
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -99,7 +99,7 @@ export async function before(m, { conn }) {
   ];
 
   const texto = mensajesNoEncontrado[Math.floor(Math.random() * mensajesNoEncontrado.length)];
-  const thumb = 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg';
+  const thumb = 'https://files.cloudkuimages.guru/images/631477d8c645.jpg';
 
   
   await conn.sendMessage(m.chat, {
@@ -113,7 +113,7 @@ export async function before(m, { conn }) {
         newsletterName: channelRD.name
       },
       externalAdReply: {
-        title: ' 🎵 𝗦𝗮𝗻𝘁𝗮𝗳𝗹𝗼𝘄𝘽𝙤𝙩🔥',
+        title: ' 🗿 Zorvex xiters bot🔥',
         body: '',
         thumbnailUrl: thumb,
         sourceUrl: '',
