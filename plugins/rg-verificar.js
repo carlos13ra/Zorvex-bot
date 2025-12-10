@@ -27,8 +27,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
     ];
 
     return await conn.sendMessage(m.chat, {
-      image: { url: 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg' },
-      caption: '   ꒰🥭⚠️ `ＡＶＩＳＯ` ⚠️🎵꒱ ',
+      image: { url: 'https://files.cloudkuimages.guru/images/631477d8c645.jpg' },
+      caption: '   ꒰⚠️ `ＡＶＩＳＯ` ⚠️🎵꒱ ',
       mentions: [m.sender],
       footer: `┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
@@ -62,7 +62,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
      ];
 
     return await conn.sendMessage(m.chat, {
-      image: { url: 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg' },
+      image: { url: 'https://files.cloudkuimages.guru/images/631477d8c645.jpg' },
       caption: '    `ＡＶＩＳＯ:`',
       mentions: [m.sender],
       footer: `｡☆✼★━━━━━━━━━━━━★✼☆｡  
@@ -131,7 +131,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 > *ꛊֵ໋𝅭࣫𝂺ֺׅ🌙̶ᮢ〪〫ꨩ֔ᦡ࣫꒱ֵ֔*  ᴅɪᴀ » ${dia}
 
 \`\`\`    ּ͜⌒໊݂݁͜    ݊ ּ͜⌒໊݂݁͜⏜݄݊͜ ͜⏜݆ׄ͜⌒໊݂͜.    ּ͜⌒໊݂݁͜\`\`
-\`\`\`   ͜છֶ̤͝🥭 𝐑𝐄𝐂𝐎𝐌𝐏𝐄𝐍𝐒𝐀𝐒 🥭છ̤͜  \`\`\`
+\`\`\`   ͜છֶ̤͝ 𝐑𝐄𝐂𝐎𝐌𝐏𝐄𝐍𝐒𝐀𝐒 છ̤͜  \`\`\`
 \`\`\`︶ִֶָ⏝︶ִֶָ⏝˖ ࣪ ୨✧୧ ࣪ ˖⏝ִֶָ︶⏝ִֶָ︶\`\`\`
 ✧ 💰 +40 → ${moneda}
 ✧ 🔮 +300 → ᴇxᴘ
@@ -154,10 +154,10 @@ await conn.sendMessage(
         newsletterName: channelRD.name
       },
       externalAdReply: {
-        title: '❁︩︪•°ֺ໋۪݊🎵 ʀᴇɢɪsᴛʀᴏ - sᴀɴᴛᴀғʟᴏᴡ - ʙᴏᴛ ☁️°໋•︪︩❁',
-        body: '꒰🥭꒱ ᴛᴜ ᴄᴜᴇɴᴛᴀ ʜᴀ ꜱɪᴅᴏ ᴀᴄᴛɪᴠᴀᴅᴀ ᴄᴏɴ ᴇxɪᴛᴏ `☯︎ sᴀɴᴛᴀғʟᴏᴡ • ʙʏ: ℂ𝕒𝕣𝕝𝕠𝕤.ℝ.𝕍`',
+        title: '❁︩︪•°ֺ໋۪݊🎵 ʀᴇɢɪsᴛʀᴏ - zorvex - ʙᴏᴛ ☁️°໋•︪︩❁',
+        body: '꒰🥭꒱ ᴛᴜ ᴄᴜᴇɴᴛᴀ ʜᴀ ꜱɪᴅᴏ ᴀᴄᴛɪᴠᴀᴅᴀ ᴄᴏɴ ᴇxɪᴛᴏ `☯︎ Zorvex • ʙʏ:ℝ.𝕍`',
         mediaType: 1,
-        thumbnailUrl: 'https://i.postimg.cc/mZqG44Dy/1760212243057.jpg',
+        thumbnailUrl: 'https://files.cloudkuimages.guru/images/631477d8c645.jpg',
         mediaUrl: redes,
         sourceUrl: redes,
         renderLargerThumbnail: false
