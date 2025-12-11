@@ -3,19 +3,19 @@ let media = 'https://files.catbox.moe/ur3ocy.jpg'
 let handler = async (m, { conn, command }) => {
   let str = `
 ╭━━━〔 💖 𝗗𝗢𝗡𝗔𝗥 〕━━⬣
-┃☁️ Apoya el proyecto *Rin Itoshi Bot*
+┃☁️ Apoya el proyecto *Santaflow*
 ┃
 ┃📌 Tu ayuda mantiene vivo el bot 💕
 ┃
 ┃🔗 PayPal:
-┃ https://paypal.me/shadowCore877
+┃ https://paypal.me/carlosramirezvillanueva
 ╰━━━━━━━━━━━━━━━━━━⬣
 `
 
   await conn.sendButton(
     m.chat,
     str,
-    `☁️ 𝐃𝐄𝐕.𝐒𝐇𝐀𝐃𝐎𝗪\n⚡ Proyecto Rin Itoshi Bot\n\n${wm}`,
+    `☁️ Carlos\n⚡ Proyecto Santaflow Bot\n\n${wm}`,
     media,
     [
       ['📢 𝗚𝗥𝗨𝗣𝗢𝗦 ~', '.grupos'],
@@ -24,7 +24,7 @@ let handler = async (m, { conn, command }) => {
     ],
     null,
     [
-      ['🌐 𝗚𝗜𝗧𝗛𝗨𝗕', `https://github.com/Yuji-XDev/`]
+      ['🌐 𝗚𝗜𝗧𝗛𝗨𝗕', `https://github.com/Carlos13ra/`]
     ],
     fkontak
   )
